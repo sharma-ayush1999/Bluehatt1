@@ -1,0 +1,41 @@
+.custom-list{
+    li{
+        list-style: decimal;
+        font-size: 1.7rem;
+    }
+}
+.custom-btn1:hover{
+    background: none !important;
+    color: rgb(0, 207, 0) !important;
+}
+.custom-cards{
+    height: 15rem;
+}
+.custom-img--flex{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .item-holder{
+        width: 12%;
+        margin-top: 0 !important;
+        margin-bottom: 5rem;
+        img{
+            height: 10rem;
+        }
+    }
+}
+@media only screen and (max-width: 750px){
+    .custom-img--flex{
+        .item-holder{
+            width: 30%;
+            margin-bottom: 3rem;
+            img{
+                height: 7rem;
+            }
+            .content-text{
+                padding-top: 0;
+            }
+        }
+    }
+}

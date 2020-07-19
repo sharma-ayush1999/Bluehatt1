@@ -1,0 +1,49 @@
+.custom-list li {
+  list-style: decimal;
+  font-size: 1.7rem;
+}
+
+.custom-btn1:hover {
+  background: none !important;
+  color: #00cf00 !important;
+}
+
+.custom-cards {
+  height: 15rem;
+}
+
+.custom-img--flex {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.custom-img--flex .item-holder {
+  width: 12%;
+  margin-top: 0 !important;
+  margin-bottom: 5rem;
+}
+
+.custom-img--flex .item-holder img {
+  height: 10rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .custom-img--flex .item-holder {
+    width: 30%;
+    margin-bottom: 3rem;
+  }
+  .custom-img--flex .item-holder img {
+    height: 7rem;
+  }
+  .custom-img--flex .item-holder .content-text {
+    padding-top: 0;
+  }
+}
+/*# sourceMappingURL=customcss.css.map */
